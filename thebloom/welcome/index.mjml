@@ -8,6 +8,11 @@
     </mj-attributes>
   </mj-head>
   <mj-body>
+    <mj-section background-color="#f0f0f0">
+      <mj-column>
+        <mj-button href="javascript:copyElementToClipboard();" target="_self" background-color="#2b9163"> Copy To Clipboard </mj-button>
+      </mj-column>
+    </mj-section>
     <!-- image header -->
     <mj-section background-color="#fad572">
       <mj-column>
