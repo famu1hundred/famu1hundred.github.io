@@ -1,4 +1,4 @@
-<<mjml>
+<mjml>
   <mj-head>
     <mj-title>The Bloom - Welcome</mj-title>
     <mj-attributes>
@@ -78,4 +78,4 @@
       </mj-column>
     </mj-section>
   </mj-body>
-  </mjml>>
+  </mjml>
