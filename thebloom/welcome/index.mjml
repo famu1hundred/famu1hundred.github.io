@@ -10,14 +10,14 @@
   <mj-body>
     <!-- image header -->
     <mj-section background-color="#fad572">
-      <mj-column width="600px">
+      <mj-column>
         <mj-image height="50px" width="54px" src="https://mcusercontent.com/a026491f2b75c3deb8790a70d/images/a1cbf522-7951-4833-9d10-efca7385849e.png" />
       </mj-column>
 
     </mj-section>
     <!-- 1 columns section -->
-    <mj-section background-color="white">
-      <mj-column width="600px">
+    <mj-section background-color="white" text-align="center">
+      <mj-column>
         <mj-text mj-class="body-text">
           Welcome,<br />
           <br />
@@ -69,7 +69,7 @@
 
     <!-- footer -->
     <mj-section background-color="#f0f0f0" padding-left="0px" padding-right="0px">
-      <mj-column width="600px">
+      <mj-column>
         <mj-image padding-top="0px" padding-bottom="0px" height="30px" width="31px" src="https://mcusercontent.com/a026491f2b75c3deb8790a70d/images/0917314f-fa05-4e98-b6af-eea1ed59b685.png" align="right" />
         <mj-text mj-class="footer-text" align="right">
           <p style="line-height:15px;margin:0;padding:0;">Made with <img height="10" width="12" style="vertical-align: middle" src="https://mcusercontent.com/a026491f2b75c3deb8790a70d/images/0d3099b9-ba5a-4c68-aa03-73a7bbcff8e5.png" /> in Atlanta</p>
@@ -78,4 +78,4 @@
       </mj-column>
     </mj-section>
   </mj-body>
-  </mjml>
+</mjml>
