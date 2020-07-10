@@ -1,0 +1,81 @@
+<mjml>
+  <mj-head>
+    <mj-title>The Bloom - Welcome</mj-title>
+    <mj-attributes>
+      <mj-class name="link-text" font-family="Roboto, Arial, sans-serif" color="#2b9163" font-size="16px" font-weight="bold" text-decoration="none"></mj-class>
+      <mj-class name="body-text" font-family="Roboto, Arial, sans-serif" color="#141414" font-size="16px" line-height="125%" align="left"></mj-class>
+      <mj-font name="Roboto" href="http://fonts.googleapis.com/css?family=Roboto"></mj-font>
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#f0f0f0">
+      <mj-column>
+        <mj-button href="javascript:copyElementToClipboard();" target="_self" background-color="#2b9163"> Copy To Clipboard </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- image header -->
+    <mj-section background-color="#fad572">
+      <mj-column>
+        <mj-image height="50px" width="54px" src="https://mcusercontent.com/a026491f2b75c3deb8790a70d/images/a1cbf522-7951-4833-9d10-efca7385849e.png" />
+      </mj-column>
+
+    </mj-section>
+    <!-- 1 columns section -->
+    <mj-section background-color="white" text-align="center">
+      <mj-column>
+        <mj-text mj-class="body-text">
+          Welcome Future Gifter,<br />
+          <br />
+          Thank you for seeing the vision of <strong>The Bloom</strong>, a Ujamaa Economix
+          Garden.<br />
+          <br />
+          You have decided to take part in an initiative and movement that can change the trajectory
+          of your family’s financial future. I hope you are as excited as I am!<br />
+          <br />
+          <strong>To become a member:</strong>
+          <ul>
+            <li>Sow the seed gift to your <strong>Water</strong> (a Water will be assigned after you confirm
+              joining and will introduce his/herself via text the Saturday before you gift in)</li>
+            <li>
+              Bring two (2) like-minded, trustworthy friends or family into <strong>The Bloom</strong></li>
+          </ul>
+
+          <strong>To get your two (2) Fires:</strong>
+          <ul>
+            <li>Send out the <a href="https://m.youtube.com/watch?v=tqM8gMlIOcY&amp;feature=youtu.be" style="font-weight:bold;color:#2b9163;text-decoration:none;">Ujamaa The
+                Gift Presentation (Short Video)</a> to at least 30-50 people</li>
+            <li>Invite anyone who’s interested to a LIVE presentation. (don't try to explain it, let the presentation do the work for you)</li>
+            <li>When you have your two (2) Fires, you will send them this same email</li>
+          </ul>
+          <strong>Important Facts:</strong>
+          <ul>
+            <li>Join dates are always on SUNDAY and gifts should be given by 12:00pm</li>
+            <li>Please reply to all text and email. Communication is key to getting gifted</li>
+          </ul>
+          <strong>Next Steps:</strong>
+          <ul>
+            <li>Reply to this email with your preferred gifting method (i.e. Zelle, CashApp,
+              PayPal, Venmo, Xoom) and the information associated with that method</li>
+            <li><strong>Watch:</strong> <a href="https://www.youtube.com/watch?v=GggpWEIi5og&amp;feature=youtu.be" style="font-weight:bold;color:#2b9163;text-decoration:none;">How to
+                Grow Your Flower</a> </li>
+            <li>Prior to your join date, send me the names, numbers, email addresses and gifting method for your two (2) Fires</li>
+          </ul>
+          <br />
+          By replying to this email, you are acknowledging that you are accepting the inviation to join <strong>The Bloom</strong> and you understand the information stated above.
+
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- footer -->
+    <mj-section background-color="#f0f0f0" padding-left="25px" padding-right="25px">
+      <mj-column>
+        <mj-image padding="0px" height="30px" width="31px" src="https://mcusercontent.com/a026491f2b75c3deb8790a70d/images/0917314f-fa05-4e98-b6af-eea1ed59b685.png" align="right" />
+        <mj-text mj-class="footer-text" align="right" padding="0px">
+          <p style="line-height:15px;margin:0;padding:0;">Made with <img height="10" width="12" style="vertical-align: middle" src="https://mcusercontent.com/a026491f2b75c3deb8790a70d/images/0d3099b9-ba5a-4c68-aa03-73a7bbcff8e5.png" /> in Atlanta</p>
+          <p style="line-height:15px;margin:0;padding:0;">© The Bloom All Rights Reserved</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
