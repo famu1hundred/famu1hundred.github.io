@@ -8,10 +8,8 @@ Copy `<script>` tags from `src/index.html`
     let el = document.getElementsByTagName('html')[0];
     let body = document.getElementsByTagName('body')[0];
     let copy = document.getElementById('copy');
-    console.log(body.childNodes)
     body.childNodes[1].removeChild(copy);
-    console.log(el);
-		let range = document.createRange();
+    let range = document.createRange();
 		range.selectNode(el);
 		window.getSelection().addRange(range);
 		document.execCommand('copy');
