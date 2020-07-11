@@ -112,7 +112,7 @@
 <body>
   <div>
     <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-      <div id="copy" style="background:#f0f0f0;background-color:#f0f0f0;Margin:0px auto;max-width:600px;">
+    <div id="copy" style="background:#f0f0f0;background-color:#f0f0f0;Margin:0px auto;max-width:600px;">
       <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation"
         style="background:#f0f0f0;background-color:#f0f0f0;width:100%;">
         <tbody>
@@ -201,11 +201,12 @@
                     <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                       <div
                         style="font-family:Roboto, Arial, sans-serif;font-size:16px;line-height:125%;text-align:left;color:#141414;">
-                        Welcome,<br><br>Thank you for seeing the vision of <strong>The Bloom</strong>, a Ujamaa Economix
-                        Garden.<br><br>You have joined a community of like-minded individuals that supports, empowers
-                        and motivates one another to go after their goals, dreams and aspirations.<br><br>If you have
-                        ANY questions, reach out directly to the person who invited you first!<br><br>Please follow the
-                        steps below:<br><strong>STEP 1:</strong> Take ownership of building and managing YOUR flower<ul>
+                        Welcome,<br><br>Thank you for seeing the vision of <strong>The Bloom</strong>, an Ujamaa
+                        Economix Garden.<br><br>You have joined a community of like-minded individuals that supports,
+                        empowers and motivates one another to go after their goals, dreams and aspirations.<br><br>If
+                        you have ANY questions, reach out directly to the person who invited you first!<br><br>Please
+                        follow the steps below:<br><strong>STEP 1:</strong> Take ownership of building and managing YOUR
+                        flower<ul>
                           <li>Be <strong>INFORMED</strong> Read all emails, save attachments and watch all videos in
                             full and in detail</li>
                           <li>Be <strong>SELF-SUFFICIENT</strong> and <strong>RESPONSIBLE</strong> for you, your 2, plus
@@ -302,10 +303,8 @@
     let el = document.getElementsByTagName('html')[0];
     let body = document.getElementsByTagName('body')[0];
     let copy = document.getElementById('copy');
-    console.log(body.childNodes)
     body.childNodes[1].removeChild(copy);
-    console.log(el);
-		let range = document.createRange();
+    let range = document.createRange();
 		range.selectNode(el);
 		window.getSelection().addRange(range);
 		document.execCommand('copy');
