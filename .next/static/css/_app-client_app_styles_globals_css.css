@@ -1,0 +1,200 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[3]!./app/styles/globals.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+  /* palette */
+  --white: #ffffff;
+  --black: #000000;
+  --text-primary-color: #000000;
+  --text-secondary-color: rgba(0, 0, 0, 0.7);
+  --text-disabled-color: rgba(0, 0, 0, 0.38);
+  --text-invert-color: #ffffff;
+  --text-invert-secondary-color: rgba(255, 255, 255, 0.7);
+  --background-default-color: #ffffff;
+  --background-paper-color: #f5f5f5;
+  --background-elevated-color: #ffffff;
+  --divider-color: rgba(0, 0, 0, 0.25);
+  --action-active-color: rgba(0, 0, 0, 0.54);
+  --action-hover-color: rgba(0, 0, 0, 0.04);
+  --action-selected-color: rgba(0, 0, 0, 0.08);
+  --action-disabled-color: rgba(0, 0, 0, 0.26);
+  --action-disabledBackground-color: rgba(0, 0, 0, 0.12);
+  --shadow-color: rgba(0, 0, 0, 0.25);
+  --code-block-color: #e7e7e7;
+
+  /* viewport */
+  --viewport-sm: 576px;
+  --viewport-md: 768px;
+  --viewport-lg: 992px;
+  --viewport-xl: 1200px;
+}
+
+body.dark {
+  /* palette */
+  --text-primary-color: #ffffff;
+  --text-secondary-color: rgba(255, 255, 255, 0.7);
+  --text-disabled-color: rgba(255, 255, 255, 0.5);
+  --text-invert-color: #000000;
+  --text-invert-secondary-color: rgba(0, 0, 0, 0.7);
+  --background-default-color: #000000;
+  --background-paper-color: #121212;
+  --background-elevated-color: #151515;
+  --divider-color: rgba(255, 255, 255, 0.25);
+  --action-active-color: #fff;
+  --action-hover-color: rgba(255, 255, 255, 0.08);
+  --action-selected-color: rgba(255, 255, 255, 0.16);
+  --action-disabled-color: rgba(255, 255, 255, 0.3);
+  --action-disabledBackground-color: rgba(255, 255, 255, 0.12);
+  --shadow-color: rgba(255, 255, 255, 0.5);
+  --code-block-color: #022a4b;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--background-default-color);
+  color: var(--text-primary-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+/*
+ * overriding code block styles in "prism-themes/themes/prism-night-owl.css" 
+ */
+code[class*='language-'],
+pre[class*='language-'] {
+  font-size: 0.85rem !important;
+}
+
+.token {
+  font-style: initial !important;
+}
+
+pre {
+  border-radius: 0.5rem;
+}
+
+.rehype-code-title {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-color: #022a4b;
+  color: var(--white);
+  padding: 0.75rem 1rem;
+  margin-top: 0.5rem;
+}
+
+.rehype-code-title + pre[class*='language-'] {
+  margin-top: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+:not(pre) > code {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 0.85em;
+  background: var(--code-block-color);
+  border-radius: 0.25rem;
+  padding: 0.125rem 0.25rem;
+}
+
+blockquote {
+  border-left: 6px solid var(--text-disabled-color);
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+
+hr {
+  margin: 2rem 0;
+  border-color: var(--divider-color);
+}
+
+svg text {
+  fill: #000000;
+}
+svg rect {
+  stroke: #000000;
+}
+
+body.dark svg text {
+  fill: #ffffff;
+}
+body.dark svg rect {
+  stroke: #ffffff;
+}
+
+/* article anchor */
+.article-content .anchor {
+  visibility: hidden;
+  position: absolute;
+  margin-left: -1em;
+  padding-right: 0.5em;
+  width: 80%;
+  max-width: 720px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .article-content .anchor {
+    /* reduce the margin for "#" */
+    margin-left: -0.65em;
+  }
+}
+
+.article-content .anchor:hover {
+  visibility: visible;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.article-content *:hover > .anchor {
+  visibility: visible;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.article-content .anchor:after {
+  color: var(--text-secondary-color);
+  content: '#';
+}
+
+.article-content .text-secondary {
+  color: var(--text-secondary-color);
+}
+
+.rounded {
+  border-radius: 0.5rem;
+}
+
+.centered {
+  display: block;
+  margin: 0 auto;
+}
+
+video {
+  width: 100% !important;
+  height: auto !important;
+  border-radius: 0.5rem;
+}
+

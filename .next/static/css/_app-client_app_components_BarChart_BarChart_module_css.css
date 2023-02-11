@@ -1,0 +1,24 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./app/components/BarChart/BarChart.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.BarChart_grid__hnW7h {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.BarChart_grid__hnW7h .BarChart_sm__ghgue {
+  flex-basis: 30%;
+}
+
+.BarChart_grid__hnW7h .BarChart_lg__0cidx {
+  flex-basis: 70%;
+}
+
+.BarChart_bar__qPqDF {
+  display: block;
+  height: 0.5rem;
+  border-radius: 1rem;
+}
+

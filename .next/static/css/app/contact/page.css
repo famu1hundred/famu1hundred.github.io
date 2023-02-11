@@ -1,0 +1,15 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./app/components/Link/styles.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.styles_anchor__D8lEF {
+  color: inherit;
+  text-decoration: underline;
+  transition: color 0.15s ease;
+}
+
+.styles_anchor__D8lEF:focus,
+.styles_anchor__D8lEF:hover,
+.styles_anchor__D8lEF:active {
+  color: rgba(0, 124, 240, 1);
+}
+

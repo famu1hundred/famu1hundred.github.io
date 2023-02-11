@@ -1,0 +1,89 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./app/components/Footer/Footer.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer___6Z8a {
+  width: 100%;
+  background-color: var(--background-paper-color);
+  margin-top: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.Footer_wrap__An0TP {
+  width: 100%;
+  max-width: 720px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.Footer_footer___6Z8a p {
+  color: var(--text-primary-color);
+}
+
+.Footer_footer___6Z8a a {
+  transition: color 0.15s ease;
+  color: var(--text-secondary-color);
+  text-decoration: none;
+}
+
+.Footer_footer___6Z8a a:hover,
+.Footer_footer___6Z8a a:active {
+  color: rgba(0, 124, 240, 1);
+}
+
+.Footer_contact__r2Nvs {
+  flex-basis: 33.33%;
+}
+
+.Footer_resources__E901Y {
+  flex-basis: 33.33%;
+}
+
+.Footer_sitemap__RW4m_ {
+  flex-basis: 33.33%;
+}
+
+.Footer_contact__r2Nvs a,
+.Footer_resources__E901Y a,
+.Footer_sitemap__RW4m_ a {
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+}
+
+@media (max-width: 576px) {
+  .Footer_contact__r2Nvs {
+    flex-basis: 100%;
+  }
+
+  .Footer_resources__E901Y {
+    flex-basis: 100%;
+  }
+
+  .Footer_sitemap__RW4m_ {
+    flex-basis: 100%;
+  }
+}
+
+.Footer_emoji__FT_Us {
+  margin-right: 0.5rem;
+}
+
+.Footer_copyright__onKRL {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  color: var(--text-primary-color);
+}
+
+.Footer_copyright__onKRL a {
+  color: var(--text-primary-color);
+  text-decoration: underline;
+}
+

@@ -1,0 +1,160 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[7].use[3]!./app/components/Hero/Hero.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.Hero_hero___JsSS {
+  max-width: 960px;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.Hero_title__hDSCT {
+  margin: 0 0 0.5rem 0;
+  line-height: 1.15;
+  font-size: 6.6rem;
+  font-weight: 900;
+  padding-bottom: 1px;
+}
+
+@media (max-width: 768px) {
+  .Hero_hero___JsSS {
+    margin-top: 0;
+  }
+  .Hero_title__hDSCT {
+    font-size: 4.3rem;
+  }
+}
+
+.Hero_heroTitle__FBl47 {
+  position: relative;
+  display: block;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.Hero_heroTitle_1__v1_79::before {
+  content: 'ux developer ';
+  position: absolute;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: var(--text-primary-color);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.Hero_animatedTitle_1__iwKlu {
+  position: relative;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 112, 243, 1),
+    rgba(0, 223, 216, 1)
+  );
+  animation: Hero_animation_1__B4n55 7s infinite;
+}
+
+.Hero_heroTitle_2__LW_hj::before {
+  content: 'solution architect ';
+  position: absolute;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: var(--text-primary-color);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.Hero_animatedTitle_2__p_lI_ {
+  position: relative;
+  display: block;
+  -webkit-background-clip: text;
+          background-clip: text;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    rgba(121, 40, 202, 1),
+    rgba(255, 0, 128, 1)
+  );
+  animation: Hero_animation_2__tiNOx 7s infinite;
+}
+
+.Hero_heroTitle_3__9XPnl::before {
+  content: 'creator ';
+  position: absolute;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: var(--text-primary-color);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.Hero_animatedTitle_3__JcSlo {
+  position: relative;
+  display: block;
+  -webkit-background-clip: text;
+          background-clip: text;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 77, 77, 1),
+    rgba(249, 203, 40, 1)
+  );
+  animation: Hero_animation_3__Sh2Zx 7s infinite;
+}
+
+@keyframes Hero_animation_1__B4n55 {
+  0%,
+  16.667%,
+  100% {
+    opacity: 1;
+  }
+  33.333%,
+  83.333% {
+    opacity: 0;
+  }
+}
+
+@keyframes Hero_animation_2__tiNOx {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  33.333%,
+  50% {
+    opacity: 1;
+  }
+  16.667%,
+  66.667% {
+    opacity: 0;
+  }
+}
+
+@keyframes Hero_animation_3__Sh2Zx {
+  0%,
+  50%,
+  100% {
+    opacity: 0;
+  }
+  66.667%,
+  83.333% {
+    opacity: 1;
+  }
+}
+
