@@ -5,7 +5,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/components/Link/Link.js",
         "name": "",
         "chunks": [
-          "app/contact/page:app/contact/page"
+          "app/page:app/page"
         ],
         "async": false
       },
@@ -13,7 +13,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/components/Link/Link.js",
         "name": "*",
         "chunks": [
-          "app/contact/page:app/contact/page"
+          "app/page:app/page"
         ],
         "async": false
       },
@@ -21,7 +21,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/components/Link/Link.js",
         "name": "default",
         "chunks": [
-          "app/contact/page:app/contact/page"
+          "app/page:app/page"
         ],
         "async": false
       }
@@ -227,15 +227,6 @@ self.__RSC_MANIFEST={
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
-    "/Users/raymondpace/dev/famu1hundred.io/app/page": [
-      "static/css/_app-client_app_components_SkillSet_SkillSet_module_css.css",
-      "static/css/_app-client_app_components_BarChart_BarChart_module_css.css",
-      "static/css/_app-client_app_components_Section_styles_module_css.css",
-      "static/css/_app-client_app_components_Intro_Intro_module_css.css",
-      "static/css/_app-client_app_components_Hero_Hero_module_css.css",
-      "static/css/_app-client_app_styles_Home_module_css.css",
-      "static/css/app/page.css"
-    ],
     "/Users/raymondpace/dev/famu1hundred.io/app/layout": [
       "static/css/_app-client_app_components_Footer_Footer_module_css.css",
       "static/css/_app-client_app_styles_globals_css.css",
@@ -247,46 +238,15 @@ self.__RSC_MANIFEST={
       "static/css/_app-client_app_components_Section_styles_module_css.css",
       "static/css/app/contact/page.css"
     ],
-    "/Users/raymondpace/dev/famu1hundred.io/app/expertise/page": [
-      "static/css/_app-client_app_styles_Expertise_module_css.css"
+    "/Users/raymondpace/dev/famu1hundred.io/app/page": [
+      "static/css/_app-client_app_components_BarChart_BarChart_module_css.css",
+      "static/css/_app-client_app_components_SkillSet_SkillSet_module_css.css",
+      "static/css/_app-client_app_components_Intro_Intro_module_css.css",
+      "static/css/_app-client_app_components_Section_styles_module_css.css",
+      "static/css/_app-client_app_components_Hero_Hero_module_css.css",
+      "static/css/_app-client_app_styles_Home_module_css.css",
+      "static/css/app/page.css"
     ]
-  },
-  "/Users/raymondpace/dev/famu1hundred.io/app/components/Link/styles.module.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/page.css",
-        "static/css/app/layout.css",
-        "static/css/app/contact/page.css"
-      ]
-    }
-  },
-  "/Users/raymondpace/dev/famu1hundred.io/app/components/Link/Link.js": {
-    "": {
-      "id": "(app-client)/./app/components/Link/Link.js",
-      "name": "",
-      "chunks": [
-        "app/contact/page:app/contact/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/components/Link/Link.js",
-      "name": "*",
-      "chunks": [
-        "app/contact/page:app/contact/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/components/Link/Link.js",
-      "name": "default",
-      "chunks": [
-        "app/contact/page:app/contact/page"
-      ],
-      "async": false
-    }
   },
   "/Users/raymondpace/dev/famu1hundred.io/app/components/DarkmodeSwitch/DarkmodeSwitch.module.css": {
     "default": {
@@ -294,6 +254,17 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
+      ]
+    }
+  },
+  "/Users/raymondpace/dev/famu1hundred.io/app/components/Link/styles.module.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css",
+        "static/css/app/contact/page.css",
+        "static/css/app/page.css"
       ]
     }
   },
@@ -313,6 +284,32 @@ self.__RSC_MANIFEST={
       "chunks": [
         "static/css/app/layout.css"
       ]
+    }
+  },
+  "/Users/raymondpace/dev/famu1hundred.io/app/components/Link/Link.js": {
+    "": {
+      "id": "(app-client)/./app/components/Link/Link.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/components/Link/Link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/components/Link/Link.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
     }
   },
   "/Users/raymondpace/dev/famu1hundred.io/app/components/Menubar/Menubar.js": {
@@ -617,12 +614,57 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "/Users/raymondpace/dev/famu1hundred.io/app/styles/Home.module.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_app_styles_Home_module_css.css"
+      ]
+    }
+  },
+  "/Users/raymondpace/dev/famu1hundred.io/app/components/Hero/Hero.module.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_app_components_Hero_Hero_module_css.css"
+      ]
+    }
+  },
   "/Users/raymondpace/dev/famu1hundred.io/app/components/Section/styles.module.css": {
     "default": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/_app-client_app_components_Section_styles_module_css.css"
+      ]
+    }
+  },
+  "/Users/raymondpace/dev/famu1hundred.io/app/components/Intro/Intro.module.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_app_components_Intro_Intro_module_css.css"
+      ]
+    }
+  },
+  "/Users/raymondpace/dev/famu1hundred.io/app/components/SkillSet/SkillSet.module.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_app_components_SkillSet_SkillSet_module_css.css"
+      ]
+    }
+  },
+  "/Users/raymondpace/dev/famu1hundred.io/app/components/BarChart/BarChart.module.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_app_components_BarChart_BarChart_module_css.css"
       ]
     }
   },
@@ -644,15 +686,6 @@ self.__RSC_MANIFEST={
       ]
     }
   },
-  "/Users/raymondpace/dev/famu1hundred.io/app/styles/Expertise.module.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_app_styles_Expertise_module_css.css"
-      ]
-    }
-  },
   "/Users/raymondpace/dev/famu1hundred.io/app/styles/globals.css": {
     "default": {
       "id": "null",
@@ -668,51 +701,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "static/css/_app-client_app_components_Footer_Footer_module_css.css"
-      ]
-    }
-  },
-  "/Users/raymondpace/dev/famu1hundred.io/app/styles/Home.module.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_app_styles_Home_module_css.css"
-      ]
-    }
-  },
-  "/Users/raymondpace/dev/famu1hundred.io/app/components/Hero/Hero.module.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_app_components_Hero_Hero_module_css.css"
-      ]
-    }
-  },
-  "/Users/raymondpace/dev/famu1hundred.io/app/components/Intro/Intro.module.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_app_components_Intro_Intro_module_css.css"
-      ]
-    }
-  },
-  "/Users/raymondpace/dev/famu1hundred.io/app/components/BarChart/BarChart.module.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_app_components_BarChart_BarChart_module_css.css"
-      ]
-    }
-  },
-  "/Users/raymondpace/dev/famu1hundred.io/app/components/SkillSet/SkillSet.module.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_app_components_SkillSet_SkillSet_module_css.css"
       ]
     }
   }

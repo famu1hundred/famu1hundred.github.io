@@ -192,7 +192,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "4170e38e17e420a9"; }
+/******/ 		__webpack_require__.h = function() { return "59beb9c42ae38970"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -798,7 +798,7 @@
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = function(chunkId, promises) {
-/******/ 			var cssChunks = {"_app-client_app_styles_Home_module_css":1,"_app-client_app_components_Hero_Hero_module_css":1,"_app-client_app_components_Intro_Intro_module_css":1,"_app-client_app_components_Section_styles_module_css":1,"_app-client_app_components_BarChart_BarChart_module_css":1,"_app-client_app_components_SkillSet_SkillSet_module_css":1,"_app-client_app_styles_globals_css":1,"_app-client_app_components_Footer_Footer_module_css":1,"_app-client_app_styles_Expertise_module_css":1,"_app-client_app_components_Contact_Contact_module_css":1,"_app-client_app_styles_Contact_module_css":1};
+/******/ 			var cssChunks = {"_app-client_app_styles_globals_css":1,"_app-client_app_components_Footer_Footer_module_css":1,"_app-client_app_components_Section_styles_module_css":1,"_app-client_app_components_Contact_Contact_module_css":1,"_app-client_app_styles_Contact_module_css":1,"_app-client_app_styles_Home_module_css":1,"_app-client_app_components_Hero_Hero_module_css":1,"_app-client_app_components_Intro_Intro_module_css":1,"_app-client_app_components_SkillSet_SkillSet_module_css":1,"_app-client_app_components_BarChart_BarChart_module_css":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(function() {
