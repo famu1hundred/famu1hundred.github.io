@@ -1,0 +1,4 @@
+# robots.txt famu1hundred.github.io
+
+User-agent: *
+Sitemap: https://famu1hundred.github.io/sitemap.xml
