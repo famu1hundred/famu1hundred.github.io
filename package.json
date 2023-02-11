@@ -1,10 +1,10 @@
 {
   "name": "famu1hundred.io",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "INIT_CWD=$PWD next build",
     "start": "next start",
     "lint": "next lint",
     "release": "release-it",
