@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "release": "release-it",
-    "export": "next export"
+    "export": "next export",
+    "deploy": "rm -rf node_modules/.cache && npm run build && npm run export && touch out/.nojekyll && git add out/ && git commit -m \"chore: deploy to gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "@next/font": "13.1.6",
