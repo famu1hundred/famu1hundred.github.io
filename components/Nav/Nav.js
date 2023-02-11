@@ -60,6 +60,7 @@ export default function Nav() {
                   Work
                 </button>
               </Link>
+              */}
               <Link href="/now" className={styles.link}>
                 <button
                   className={styles.button}
@@ -69,7 +70,6 @@ export default function Nav() {
                   Now
                 </button>
               </Link>
-              */}
               <Link href="/expertise" className={styles.link}>
                 <button
                   className={styles.button}

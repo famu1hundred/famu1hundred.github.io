@@ -15,7 +15,7 @@ The Hero design is inspired by [Vercel](https://vercel.com/).
 
 ## Versions
 
-- v0.1.1: [Source code](https://github.com/famu1hundred/famu1hundred.github.io/releases/tag/0.1.1)
+- v0.1.7: [Source code](https://github.com/famu1hundred/famu1hundred.github.io/releases/tag/0.1.7)
 
 ## Getting Started
 

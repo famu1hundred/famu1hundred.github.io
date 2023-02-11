@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "lib": [
       "dom",
       "dom.iterable",
@@ -21,14 +22,18 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "paths": {
+      "contentlayer/generated": ["./.contentlayer/generated"]
+    }
   },
   "include": [
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
-  ],
+    "**/*.tsx",
+    ".contentlayer/generated"
+, "pages/now.js", "components/MDXComponents/MDXComponents.js", "components/MDXComponents/index.js"  ],
   "exclude": [
     "node_modules"
   ]

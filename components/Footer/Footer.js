@@ -22,7 +22,7 @@ export default function Footer() {
           <Link href='https://react-icons.github.io/react-icons'>React Icons</Link>
           <Link href='https://mdxjs.com/'>MDX</Link>
           <Link href='https://unifiedjs.com/'>unified</Link>
-          <Link href='Contentlayer'>Contentlayer</Link>
+          <Link href='https://www.contentlayer.dev/docs/getting-started'>Contentlayer</Link>
         </div>
         <div className={styles.contact}>
           <p>
@@ -53,8 +53,8 @@ export default function Footer() {
           {/*
           <Link href="/articles">Articles</Link>
           <Link href="/work">Work</Link>
-          <Link href="/now">Now</Link>
           */}
+          <Link href="/now">Now</Link>
           <Link href="/expertise">Expertise</Link>
           <Link href="/contact">Contact</Link>
         </div>
